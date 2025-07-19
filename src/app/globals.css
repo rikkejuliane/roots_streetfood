@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@theme {
+/* Custom colors*/
+--color-background: #FEFEFE;
+--color-darkbrown: #5B2D29;
+--color-sand: #D5BB9B;
+
+
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

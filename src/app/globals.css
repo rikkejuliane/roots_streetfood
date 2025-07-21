@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
-
 @theme {
-/* Custom colors */
---color-background: #FEFEFE;
---color-darkbrown: #5B2D29;
---color-sand: #D5BB9B;
+  /* Custom colors */
+  --color-background: #fefefe;
+  --color-darkbrown: #5b2d29;
+  --color-sand: #d5bb9b;
 
-/* Fonts */
---font-cormorant: "Cormorant Garamond", serif;
---font-montserrat: "Montserrat", sans-serif;
+  /* Fonts */
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-montserrat: "Montserrat", sans-serif;
 }
 
 .antialiased {
@@ -18,3 +17,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* HERO SECTION */
+.hero-image {
+  width: 800px;       /* desktop width */
+  height: auto;        /* height adjusts */
+  margin: 0 auto;      /* center container */
+  overflow: visible;   /* no cropping */
+  position: static;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* fit without cropping */
+  position: static;
+  transform: none;
+}
+
+/* Tablet and below — smaller screens */
+@media (max-width: 1023px) {
+  .hero-image {
+    width: 640px;        /* tablet width */
+    height: auto;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 639px) {
+  .hero-image {
+    width: 100%;        /* full width */
+    min-width: 320px;        /* mobile width */
+    height: 426px;       /* fixed height to crop */
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .hero-image img {
+    width: auto;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;   /* crop and fill nicely */
+  }
+}

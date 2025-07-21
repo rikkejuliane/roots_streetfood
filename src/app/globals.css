@@ -19,17 +19,17 @@
 
 /* HERO SECTION */
 .hero-image {
-  width: 800px;       /* desktop width */
-  height: auto;        /* height adjusts */
-  margin: 0 auto;      /* center container */
-  overflow: visible;   /* no cropping */
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  overflow: visible;
   position: static;
 }
 
 .hero-image img {
   width: 100%;
   height: auto;
-  object-fit: contain; /* fit without cropping */
+  object-fit: contain;
   position: static;
   transform: none;
 }
@@ -37,7 +37,7 @@
 /* Tablet and below — smaller screens */
 @media (max-width: 1023px) {
   .hero-image {
-    width: 640px;        /* tablet width */
+    width: 640px;
     height: auto;
   }
 }
@@ -45,9 +45,9 @@
 /* Mobile phones */
 @media (max-width: 639px) {
   .hero-image {
-    width: 100%;        /* full width */
-    min-width: 320px;        /* mobile width */
-    height: 426px;       /* fixed height to crop */
+    width: 100%;
+    min-width: 320px;
+    height: 426px;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
@@ -59,6 +59,6 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    object-fit: cover;   /* crop and fill nicely */
+    object-fit: cover;
   }
 }

@@ -62,3 +62,12 @@
     object-fit: cover;
   }
 }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-cormorant);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-darkbrown);
+}

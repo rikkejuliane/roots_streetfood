@@ -1,6 +1,6 @@
 export default function Menu() {
   return (
-    <section className="mt-10 flex flex-col items-center">
+    <section className="mt-10 flex flex-col items-center" id="menu">
       <h1>TAKE A LOOK AT OUR MENU</h1>
       <img src="menu-part1.jpg" alt="Menu for roots" />
       <img src="menu-part2.jpg" alt="Menu for roots" />

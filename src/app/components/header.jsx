@@ -5,8 +5,16 @@ export default function Header() {
         <img src="/ROOTS.png" width="86px" height="30px" alt="Roots logo" />
         <nav>
           <ul className="flex gap-4 items-center font-(family-name:--font-montserrat) font-semibold text-xs text-darkbrown">
-            <li>MENU</li>
-            <li>CONTACT</li>
+            <li>
+              <a href="#menu" className="hover:underline">
+                MENU
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:underline">
+                CONTACT
+              </a>
+            </li>
             <li>
               <svg
                 width="15"

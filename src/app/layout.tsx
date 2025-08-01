@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header";
 import Hero from "./components/hero";
+import Footer from "./components/footer"
 
 export const metadata: Metadata = {
   title: "Roots Street Food",
@@ -19,6 +20,7 @@ export default function RootLayout({
         <Header />
           <Hero />
         {children}
+        <Footer />
       </body>
     </html>
   );

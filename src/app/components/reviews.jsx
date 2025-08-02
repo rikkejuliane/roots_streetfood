@@ -1,8 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
+import { useLanguage } from "../utils/languageContext";
+import { translations } from "../utils/translations";
 
 export default function Reviews() {
+  const { lang } = useLanguage();
+
   useEffect(() => {
     const script = document.createElement("script");
     script.src =
@@ -11,13 +15,13 @@ export default function Reviews() {
     document.body.appendChild(script);
 
     return () => {
-      document.body.removeChild(script); // cleanup
+      document.body.removeChild(script);
     };
   }, []);
 
   return (
     <section className="mt-10">
-      <h1>OUR GOOGLE REVIEWS</h1>
+      <h1>{translations[lang].ourGoogleReviews}</h1>
       <div id="reviews-widget-135"></div>
     </section>
   );

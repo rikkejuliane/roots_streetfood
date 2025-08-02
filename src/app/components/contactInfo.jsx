@@ -1,4 +1,9 @@
+"use client";
+import { useLanguage } from "../utils/languageContext";
+import { translations } from "../utils/translations";
+
 export default function ContactInfo() {
+  const { lang } = useLanguage();
   return (
     <div className="flex flex-col items-center">
       <a
@@ -23,7 +28,7 @@ export default function ContactInfo() {
           Obala Ante Damira Klanca 4,
         </p>
         <p className="text-black text-[8px] font-semibold font-[Montserrat] text-center leading-none">
-          23242 Posedarje, Croatia
+          23242 Posedarje, {translations[lang].croatia}
         </p>
       </a>
 

@@ -1,8 +1,15 @@
+"use client";
+
+import { useLanguage } from "../utils/languageContext";
+import { translations } from "../utils/translations";
+
 export default function FooterOpeningHours() {
+  const { lang } = useLanguage();
+
   return (
     <div className="mt-1 text-background py-2.5">
       <h3 className="mb-1 text-[18px] font-cormorant font-semibold">
-        SUMMER OPENING HOURS
+        {translations[lang].summerOpeningHours}
       </h3>
       <div className="flex flex-col justify-center items-center">
         <p className="text-[18px] font-semibold font-montserrat">
@@ -15,7 +22,9 @@ export default function FooterOpeningHours() {
             AM
           </span>
         </p>
-        <p className="font-montserrat font-bold text-[8px]">MON - SUN</p>
+        <p className="font-montserrat font-bold text-[8px]">
+          {translations[lang].monSun}
+        </p>
       </div>
     </div>
   );

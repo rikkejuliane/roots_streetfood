@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header";
 import Hero from "./components/hero";
-import Footer from "./components/footer"
+import Footer from "./components/footer";
+import { LanguageProvider } from "./utils/languageContext";
 
 export const metadata: Metadata = {
   title: "Roots Street Food",
@@ -11,16 +12,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className="antialiased">
-        <Header />
+        <LanguageProvider>
+          <Header />
           <Hero />
-        {children}
-        <Footer />
+          {children}
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );

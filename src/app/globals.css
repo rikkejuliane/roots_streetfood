@@ -22,6 +22,15 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-cormorant);
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--color-darkbrown);
+}
+
 /* HERO SECTION */
 .hero-image {
   width: 800px;
@@ -41,7 +50,7 @@ body {
 
 /* Tablet and below — smaller screens */
 @media (max-width: 1023px) {
-  body{
+  body {
     max-width: 640px;
   }
 
@@ -70,13 +79,8 @@ body {
     transform: translateX(-50%);
     object-fit: cover;
   }
-}
 
-h1 {
-  display: flex;
-  justify-content: center;
-  font-family: var(--font-cormorant);
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--color-darkbrown);
+  h1 {
+    font-size: 20px;
+  }
 }

@@ -17,6 +17,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 /* HERO SECTION */
 .hero-image {
   width: 800px;
@@ -36,6 +41,10 @@
 
 /* Tablet and below — smaller screens */
 @media (max-width: 1023px) {
+  body{
+    max-width: 640px;
+  }
+
   .hero-image {
     width: 640px;
     height: auto;

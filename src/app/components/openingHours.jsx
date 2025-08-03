@@ -7,7 +7,7 @@ export default function OpeningHours() {
 
   return (
     <section className="mt-4">
-      <h1 className="mb-2">{translations[lang].openingHours}</h1>
+      <h1>{translations[lang].openingHours}</h1>
       <div className="flex flex-col justify-center items-center">
         <p className="text-[25px] font-semibold font-montserrat">
           16

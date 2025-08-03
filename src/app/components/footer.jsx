@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="w-full h-[355px] flex-shrink-0 bg-darkbrown mt-10 flex flex-col items-center">
       <h2 className="text-sand text-[25px] font-semibold leading-normal uppercase font-cormorant pt-4">
-        {translations[lang].roots}
+        ROOTS
       </h2>
       <FooterOpeningHours />
       <div className="flex flex-col items-center">
@@ -21,7 +21,6 @@ export default function Footer() {
           href="https://www.instagram.com/roots_streetfood/"
           target="_blank"
           rel="noopener noreferrer">
-          {/* SVG icon stays the same */}
           <svg
             width="25"
             height="25"
@@ -42,7 +41,12 @@ export default function Footer() {
       </p>
       <p className="text-background text-center font-montserrat text-[12px] font-semibold leading-normal mt-[4px]">
         {translations[lang].websiteBy}{" "}
-        <a href="https://rikkejuliane.netlify.app/">Rikke Juliane</a>
+        <a
+          href="https://rikkejuliane.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer">
+          Rikke Juliane
+        </a>
       </p>
     </footer>
   );

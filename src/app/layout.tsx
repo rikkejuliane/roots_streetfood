@@ -8,15 +8,15 @@ import { LanguageProvider } from "./utils/languageContext";
 export const metadata: Metadata = {
   title: "Roots Fast Food | Fast Food u Posedarju, Zadru",
   description:
-    "Ukusna ulična hrana svježe pripremljena u Posedarju, Zadru. Uživajte u autentičnim okusima i ugodnoj atmosferi.",
+    "Ukusna, svježe pripremljena hrana u Posedarju. Posjetite fast food Roots i uživajte u odličnim okusima i ugodnoj atmosferi.",
   keywords: [
     "Roots Fast Food",
     "hrana u Posedarju",
     "hrana u Zadru",
-    "hrvatska ulična hrana",
+    "restorani u posedarju",
     "brza hrana",
     "lokalna hrana",
-    "restoran",
+    "restorani",
     "za van",
     "Roots fast Food",
     "Posedarje food",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Roots Street Food - Posedarje, Zadar",
     description:
-      "Ukusna ulična hrana svježe pripremljena u Posedarju, Zadru, Hrvatska. Uživajte u autentičnim okusima i ugodnoj atmosferi.",
+      "Ukusna, svježe pripremljena  hrana u Posedarju. Posjetite fast food Roots i uživajte u odličnim okusima i ugodnoj atmosferi.",
     url: "https://rootsstreetfood.example.com", // Replace with your actual URL
     siteName: "Roots Street Food",
     locale: "hr_HR",

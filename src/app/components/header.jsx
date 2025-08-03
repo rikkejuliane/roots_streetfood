@@ -11,7 +11,7 @@ export default function Header() {
       <div className="flex justify-between items-center w-full">
         <img src="/ROOTS.png" width="86px" height="30px" alt="Roots logo" />
         <nav>
-          <ul className="flex gap-4 items-center justify-center font-(family-name:--font-montserrat) font-semibold text-base text-darkbrown">
+          <ul className="flex gap-4 items-center justify-center font-(family-name:--font-montserrat) font-semibold text-lg text-darkbrown">
             <li>
               <a href="#menu" className="hover:underline">
                 {translations[lang].menu}
@@ -27,9 +27,9 @@ export default function Header() {
                 onClick={toggleLanguage}
                 className="hover:scale-110 transition">
                 {lang === "hr" ? (
-                  <CircleFlag countryCode="gb" className="w-5 h-5" />
+                  <CircleFlag countryCode="gb" className="w-6 h-6" />
                 ) : (
-                  <CircleFlag countryCode="hr" className="w-5 h-5" />
+                  <CircleFlag countryCode="hr" className="w-6 h-6" />
                 )}
               </button>
             </li>

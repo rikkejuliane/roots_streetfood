@@ -7,7 +7,7 @@ export default function ContactInfo() {
   return (
     <div className="flex flex-col items-center">
       <a
-        className="w-[306px] h-[52px] flex-shrink-0 rounded-t-[30px] rounded-b-[10px] bg-sand flex flex-col items-center justify-center"
+        className="w-[317px] h-[60px] flex-shrink-0 rounded-t-[30px] rounded-b-[10px] bg-sand flex flex-col items-center justify-center"
         href="https://maps.app.goo.gl/VE7bXj53Ju1gY9AB9"
         target="_blank"
         rel="noopener noreferrer">
@@ -24,17 +24,17 @@ export default function ContactInfo() {
             fill="#5B2D29"
           />
         </svg>
-        <p className="text-black text-[8px] font-semibold font-[Montserrat] text-center mt-0 mb-0">
+        <p className="text-black text-[12px] font-semibold font-[Montserrat] text-center mt-0 mb-0">
           Obala Ante Damira Klanca 4,
         </p>
-        <p className="text-black text-[8px] font-semibold font-[Montserrat] text-center leading-none">
+        <p className="text-black text-[12px] font-semibold font-[Montserrat] text-center leading-none">
           23242 Posedarje, {translations[lang].croatia}
         </p>
       </a>
 
       <a
         href="tel:+385958515151"
-        className="w-[277px] h-[39px] flex-shrink-0 rounded-[10px] bg-darkbrown flex flex-col items-center justify-center">
+        className="w-[280px] h-[48px] flex-shrink-0 rounded-[10px] bg-darkbrown flex flex-col items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -46,13 +46,13 @@ export default function ContactInfo() {
             stroke="#D5BB9B"
           />
         </svg>
-        <p className="text-background text-center font-montserrat text-[8px] font-semibold mt-[2px]">
+        <p className="text-background text-center font-montserrat text-[12px] font-semibold mt-[2px]">
           +385 95 851 5151
         </p>
       </a>
       <a
         href="mailto:roots.posedarje@gmail.com"
-        className="w-[306px] h-[52px] flex-shrink-0 rounded-t-[10px] rounded-b-[30px] bg-sand flex flex-col items-center justify-center">
+        className="w-[317px] h-[60px] flex-shrink-0 rounded-t-[10px] rounded-b-[30px] bg-sand flex flex-col items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="18"
@@ -66,7 +66,7 @@ export default function ContactInfo() {
             fill="#5B2D29"
           />
         </svg>
-        <p className="text-black text-[8px] font-semibold font-[Montserrat] text-center mt-[2px]">
+        <p className="text-black text-[12px] font-semibold font-[Montserrat] text-center mt-[2px]">
           roots.posedarje@gmail.com
         </p>
       </a>

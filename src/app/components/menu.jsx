@@ -12,7 +12,7 @@ export default function Menu() {
       <img src="menu-part2.jpg" alt="Menu for roots" />
       <a
         href="tel:0958515151"
-        className="px-4 h-[27px] min-w-[143px] rounded-[5px] bg-darkbrown text-background font-montserrat text-[12px] flex items-center justify-center font-bold cursor-pointer mt-3">
+        className="px-4 h-[27px] min-w-[143px] rounded-[5px] bg-darkbrown text-background font-montserrat text-[14px] flex items-center justify-center font-bold cursor-pointer mt-3">
         {translations[lang].orderByPhone}
       </a>
     </section>

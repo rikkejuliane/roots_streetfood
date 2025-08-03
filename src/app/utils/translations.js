@@ -1,7 +1,7 @@
 
 export const translations = {
   hr: {
-    summerOpeningHours: "LJETNO RADNO VRIJEME",
+    openingHours: "RADNO VRIJEME",
     monSun: "PON - NED",
     takeALookAtOurMenu: "POGLEDAJTE NAŠ MENI",
     orderByPhone: "NARUČITE PUTEM TELEFONA",
@@ -14,7 +14,7 @@ export const translations = {
     contact: "KONTAKT",
   },
   en: {
-    summerOpeningHours: "SUMMER OPENING HOURS",
+    openingHours: "OPENING HOURS",
     monSun: "MON - SUN",
     takeALookAtOurMenu: "TAKE A LOOK AT OUR MENU",
     orderByPhone: "ORDER BY PHONE",

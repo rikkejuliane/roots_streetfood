@@ -27,9 +27,17 @@ export default function Header() {
                 onClick={toggleLanguage}
                 className="hover:scale-110 transition">
                 {lang === "hr" ? (
-                  <CircleFlag countryCode="gb" className="w-6 h-6" />
+                  <img
+                    src="/gb.svg"
+                    alt="English flag"
+                    className="w-6 h-6 rounded-full"
+                  />
                 ) : (
-                  <CircleFlag countryCode="hr" className="w-6 h-6" />
+                  <img
+                    src="/hr.svg"
+                    alt="Croatian flag"
+                    className="w-6 h-6 rounded-full"
+                  />
                 )}
               </button>
             </li>

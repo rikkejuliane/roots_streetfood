@@ -1,7 +1,6 @@
 "use client";
 import { useLanguage } from "../utils/languageContext";
 import { translations } from "../utils/translations";
-import { CircleFlag } from "react-circle-flags";
 
 export default function Header() {
   const { lang, toggleLanguage } = useLanguage();

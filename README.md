@@ -70,6 +70,7 @@ Clone + install:
 git clone https://github.com/yourusername/roots-street-food.git
 cd roots-street-food
 npm install
+````
 
 Run locally:
 ```bash

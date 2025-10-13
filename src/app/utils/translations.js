@@ -12,6 +12,7 @@ export const translations = {
     croatia: "Hrvatska",
     menu: "MENI",
     contact: "KONTAKT",
+    winterTime: "Zatvoreno do iduće sezone, vdimo se."
   },
   en: {
     openingHours: "OPENING HOURS",
@@ -25,5 +26,6 @@ export const translations = {
     croatia: "Croatia",
     menu: "MENU",
     contact: "CONTACT",
+    winterTime: "Closed until next season, see you then."
   },
 };

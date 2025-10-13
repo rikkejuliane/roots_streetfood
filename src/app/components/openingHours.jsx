@@ -8,7 +8,7 @@ export default function OpeningHours() {
   return (
     <section className="mt-4">
       <h1>{translations[lang].openingHours}</h1>
-      <div className="flex flex-col justify-center items-center">
+      {/* <div className="flex flex-col justify-center items-center">
         <p className="text-[25px] font-semibold font-montserrat">
           16
           <span className="align-super text-xs tracking-wide px-[2px]">
@@ -20,6 +20,9 @@ export default function OpeningHours() {
         <p className="font-montserrat text-[12px] font-bold">
           {translations[lang].monSun}
         </p>
+      </div> */}
+      <div>
+        <p className="text-center font-montserrat text-[16px] font-bold">{translations[lang].winterTime}</p>
       </div>
     </section>
   );

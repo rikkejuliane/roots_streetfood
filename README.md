@@ -61,26 +61,10 @@ This website is focused on:
 
 ---
 
-## Installation ⚙️
+## View ⚙️
 Visit the live site (example):  
 🔗 [Roots Street Food](https://rootsstreetfood.netlify.app/)
 
-Clone + install:
-```bash
-git clone https://github.com/yourusername/roots-street-food.git
-cd roots-street-food
-npm install
-````
-
-Run locally:
-```bash
-npm run dev
-````
-
-Open in browser:
-```bash
-http://localhost:3000
-```
 
 ## Contact me 🙋🏽‍♀️  
 Don’t hesitate to reach out to me or connect with me on social media if you have any questions, collaboration ideas, or an exciting new project in mind. I’m always open to new opportunities!   

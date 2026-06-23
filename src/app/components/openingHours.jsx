@@ -14,7 +14,7 @@ export default function OpeningHours() {
           <span className="align-super text-xs tracking-wide px-[2px]">
             00
           </span>{" "}
-          - 22
+          - 23
           <span className="align-super text-xs tracking-wide px-[2px]">00</span>
         </p>
         <p className="font-montserrat text-[12px] font-bold">

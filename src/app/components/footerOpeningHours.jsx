@@ -11,7 +11,7 @@ export default function FooterOpeningHours() {
       <h3 className="mb-1 text-[18px] font-cormorant font-semibold">
         {translations[lang].openingHours}
       </h3>
-      {/* <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center">
         <p className="text-[18px] font-semibold font-montserrat">
           16
           <span className="align-super text-[10px] tracking-wide px-[2px]">
@@ -25,13 +25,13 @@ export default function FooterOpeningHours() {
         <p className="font-montserrat font-bold text-[8px]">
           {translations[lang].monSun}
         </p>
-      </div> */}
-      <div>
+      </div> 
+      {/* <div>
         {" "}
         <p className="text-center font-montserrat text-[14px] font-bold">
           {translations[lang].winterTime}
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }

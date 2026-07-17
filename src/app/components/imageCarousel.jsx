@@ -27,7 +27,7 @@ export default function ImageCarousel() {
           <img
             src="/galery1.jpg"
             alt="4 hamburgers outside from Roots"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover object-right sm:object-center rounded-lg"
           />
         </SwiperSlide>
 
@@ -59,7 +59,7 @@ export default function ImageCarousel() {
           <img
             src="/galery5.jpg"
             alt="Delicious hamburger from Roots"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover object-left sm:object-center rounded-lg"
           />
         </SwiperSlide>
       </Swiper>
